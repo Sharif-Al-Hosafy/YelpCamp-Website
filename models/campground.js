@@ -1,6 +1,7 @@
 let mongoose = require("mongoose");
 
 let campGroundSchema = new mongoose.Schema({
+    price: String,
     comments: [
         {
             type: mongoose.Schema.Types.ObjectId,

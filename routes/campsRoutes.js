@@ -20,13 +20,14 @@ router.get("/new", middleware.isLoggedIn, function (req, res) {
 //CREATE
 router.post("/", middleware.isLoggedIn, function (req, res) {
     var name = req.body.name;
+    var price = req.body.price;
     var url = req.body.url;
     var description = req.body.description;
     var author = {
         username: req.user.username,
         id: req.user._id
     }
-    var newCamp = { name: name, description: description, url: url, author: author }
+    var newCamp = { name: name, description: description, url: url, author: author, price: price }
     CAMPGROUND.create(newCamp, function (err, camp) {
         if (err)
             console.log(err);
