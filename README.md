@@ -2,6 +2,8 @@
 
 A Node.js web application project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/)
 
+# Demo
+You can visit the site from here: https://theyelpcampproj.herokuapp.com
 
 ## **Features** 
 
@@ -34,5 +36,7 @@ A Node.js web application project from the Udemy course - [The Web Developer Boo
   * Profile page setup
   
   * Upload campground photos
+  
+  * Add info for every campground
   
 
